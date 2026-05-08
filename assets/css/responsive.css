@@ -1,0 +1,5 @@
+
+@media (max-width: 540px) {
+  .brand-copy span { max-width: 22ch; }
+  .site-header { position: sticky; }
+}
