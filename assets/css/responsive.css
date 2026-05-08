@@ -1,5 +1,9 @@
 
 @media (max-width: 540px) {
-  .brand-copy span { max-width: 22ch; }
-  .site-header { position: sticky; }
+  .brand-logo { height: 38px; }
+  .hero-copy h1 { -webkit-text-fill-color: unset; color: var(--color-secondary); }
+  .stat-card strong { -webkit-text-fill-color: unset; color: var(--color-primary); }
+}
+@media (min-width: 1280px) {
+  .grid-4 { grid-template-columns: repeat(4, 1fr); }
 }
